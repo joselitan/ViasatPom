@@ -101,3 +101,30 @@ class Util(object):
         else:
             self.log.info("### VERIFICATION DOES NOT CONTAINS!!!")
             return False
+
+    def verifyListMatch(self, expectedList, actualList):
+        """
+        Verify actual list contains elements of expected list
+
+        Parameters:
+            expectedList: Expected List
+            actualLlist: Actual List
+        """
+        return set(expectedList) == set(actualList)
+
+    def verifyListContains(self, expectedList, actualList):
+        """
+        Verify actual list contains elements of expected list
+        Parameters:
+            expectedList: Expected List
+            actualList: Actual List
+        """
+        # self.log.info("Actual Text From Application Web UI --> :: ", actualList)
+        # self.log.info("Expected Text From Application Web UI --> :: ", expectedList)
+
+        length = len(expectedList)
+        for i in range(0, length):
+            if expectedList[i] not in actualList:
+                return False
+            else:
+                return True
