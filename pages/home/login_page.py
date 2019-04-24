@@ -20,11 +20,12 @@ class LoginPage(SeleniumDriver):
     _invalid_credentials = ".//div[contains(text(),'Invalid email or password')]"
 
     def clickLoginLink(self):
-
+        # self.waitForElement(self._login_link, timeout=2)
         self.elementClick(self._login_link, locatorType="link")
 
     def enterEmail(self, email):
 
+        # self.waitForFieldElement(self._email_field, locatorType="id", timeout=2)
         self.sendKeys(email, self._email_field)
         self.log.info("Entering: " + email)
 
@@ -38,10 +39,8 @@ class LoginPage(SeleniumDriver):
         self.elementClick(self._login_button, locatorType="name")
 
     def login(self, email="", password=""):
-        self.clickLoginLink()
+        # self.clickLoginLink()
         self.enterEmail(email)
-        # from time import sleep
-        # sleep(2)
         self.enterPassword(password)
         self.clickLoginButton()
 
@@ -57,6 +56,9 @@ class LoginPage(SeleniumDriver):
                                        locatorType="xpath")
         return result
 
-    def clearFields(self):
-        emailField = self.getElement(self._email_field)
-        emailField.clear()
+    def verifyLoginTitle(self):
+        # Lets's Kode It
+        if "Google" in self.getTitle():
+            return True
+        else:
+            return False

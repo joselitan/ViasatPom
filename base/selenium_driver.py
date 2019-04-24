@@ -5,13 +5,39 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
 import utilities.custom_logger as cl
 import logging
+import time
+import os
+
 
 class SeleniumDriver():
-
     log = cl.customLogger(logging.DEBUG)
 
     def __init__(self, driver):
         self.driver = driver
+
+    def screenShot(self, resultMessage):
+        """
+        Takes screenshot of the current open web page
+        """
+        fileName = resultMessage + "." + str(round(time.time() * 1000)) + ".png"
+        screenshotDirectory = "../screenshot/"
+        relativeFileName = screenshotDirectory + fileName
+        currentDirectory = os.path.dirname(__file__)
+        destinationFile = os.path.join(currentDirectory, relativeFileName)
+        destinationDirectory = os.path.join(currentDirectory, screenshotDirectory)
+
+
+        try:
+            if not os.path.exists(destinationDirectory):
+                os.makedirs(destinationDirectory)
+            self.driver.save_screenshot(destinationFile)
+            self.log.info("screenshot save to directory: " + destinationFile)
+        except:
+            self.log.error("### Exception Occured")
+            print_stack()
+
+    def getTitle(self):
+        return self.driver.title
 
     def getByType(self, locatorType):
         locatorType = locatorType.lower()
@@ -38,6 +64,7 @@ class SeleniumDriver():
             locatorType = locatorType.lower()
             byType = self.getByType(locatorType)
             element = self.driver.find_element(byType, locator)
+            # element = WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located((byType, locator)))
             self.log.info("Element found with locator: " + locator +
                           " and  locatorType: " + locatorType)
         except:
@@ -59,13 +86,19 @@ class SeleniumDriver():
     def sendKeys(self, data, locator, locatorType="id"):
         try:
             element = self.getElement(locator, locatorType)
+            element.clear()
             element.send_keys(data)
             self.log.info("Sent data on element with locator: " + locator +
                           " locatorType: " + locatorType)
         except:
             self.log.info("Cannot send data on the element with locator: " + locator +
-                  " locatorType: " + locatorType)
+                          " locatorType: " + locatorType)
             print_stack()
+
+    def returnKeys(self):
+        # todo: create a return key function
+        pass
+
 
     def isElementPresent(self, locator, locatorType="id"):
         try:
@@ -94,12 +127,12 @@ class SeleniumDriver():
             return False
 
     def waitForElement(self, locator, locatorType="id",
-                               timeout=10, pollFrequency=0.5):
+                       timeout=10, pollFrequency=0.5):
         element = None
         try:
             byType = self.getByType(locatorType)
             self.log.info("Waiting for maximum :: " + str(timeout) +
-                  " :: seconds for element to be clickable")
+                          " :: seconds for element to be clickable")
             wait = WebDriverWait(self.driver, 10, poll_frequency=1,
                                  ignored_exceptions=[NoSuchElementException,
                                                      ElementNotVisibleException,
@@ -111,3 +144,24 @@ class SeleniumDriver():
             self.log.info("Element not appeared on the web page")
             print_stack()
         return element
+
+    def waitForFieldElement(self, locator, locatorType="id",
+                       timeout=10, pollFrequency=0.5):
+        element = None
+        try:
+            byType = self.getByType(locatorType)
+            self.log.info("Waiting for maximum :: " + str(timeout) +
+                          " :: seconds for element to be visible")
+            wait = WebDriverWait(self.driver, timeout, poll_frequency=1,
+                                 ignored_exceptions=[NoSuchElementException,
+                                                     ElementNotVisibleException,
+                                                     ElementNotSelectableException])
+            element = wait.until(EC.visibility_of_element_located((byType,
+                                                             "stopFilter_stops-0")))
+            self.log.info("Element appeared on the web page")
+        except:
+            self.log.info("Element not appeared on the web page")
+            print_stack()
+        return element
+
+
