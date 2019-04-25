@@ -1,9 +1,8 @@
-from selenium.webdriver.common.by import By
-from base.selenium_driver import SeleniumDriver
 import utilities.custom_logger as cl
+from base.basepage import BasePage
 import logging
 
-class LoginPage(SeleniumDriver):
+class LoginPage(BasePage):
 
     log = cl.customLogger(logging.DEBUG)
 
@@ -58,7 +57,4 @@ class LoginPage(SeleniumDriver):
 
     def verifyLoginTitle(self):
         # Lets's Kode It
-        if "Google" in self.getTitle():
-            return True
-        else:
-            return False
+        return self.verifyPageTitle("Let's Kode It")
