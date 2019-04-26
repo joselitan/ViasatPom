@@ -19,12 +19,11 @@ class LoginPage(BasePage):
     _invalid_credentials = ".//div[contains(text(),'Invalid email or password')]"
 
     def clickLoginLink(self):
-        # self.waitForElement(self._login_link, timeout=2)
+
         self.elementClick(self._login_link, locatorType="link")
 
     def enterEmail(self, email):
 
-        # self.waitForFieldElement(self._email_field, locatorType="id", timeout=2)
         self.sendKeys(email, self._email_field)
         self.log.info("Entering: " + email)
 
@@ -38,7 +37,7 @@ class LoginPage(BasePage):
         self.elementClick(self._login_button, locatorType="name")
 
     def login(self, email="", password=""):
-        # self.clickLoginLink()
+
         self.enterEmail(email)
         self.enterPassword(password)
         self.clickLoginButton()
@@ -57,4 +56,4 @@ class LoginPage(BasePage):
 
     def verifyLoginTitle(self):
         # Lets's Kode It
-        return self.verifyPageTitle("Let's Kode It")
+        return self.verifyPageTitle("Google")

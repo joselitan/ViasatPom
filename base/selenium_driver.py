@@ -106,6 +106,17 @@ class SeleniumDriver():
                           " locatorType: " + locatorType)
             print_stack()
 
+    # def elementClick(self, locator, locatorType = "id"):
+    #     try:
+    #         element = self.getElement(locator, locatorType)
+    #         element.click()
+    #         self.log.info("Clicked on element with locator: " + locator + " locatorType: " + locatorType)
+    #     except:
+    #         self.log.info("Cannot click element with: " + locator + " locatorType: " + locatorType)
+    #         print_stack()
+    #
+
+
     def sendKeys(self, data, locator="", locatorType="id", element=None):
         """
         Send keys to an element -> MODIFIED

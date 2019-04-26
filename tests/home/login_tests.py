@@ -7,6 +7,7 @@ import pytest
 class LoginTests(unittest.TestCase):
 
 
+
     @pytest.fixture(autouse=True)
     def classSetup(self, oneTimeSetUp):
         self.lp = LoginPage(self.driver)
@@ -14,6 +15,7 @@ class LoginTests(unittest.TestCase):
 
     @pytest.mark.run(order=2)
     def test_validLogin(self):
+        # self.lp.clickLoginLink()
         self.lp.login("test@email.com", "abcabc")
         result1 = self.lp.verifyLoginTitle()
         self.ts.mark(result1, "Title is incorrect")
