@@ -256,15 +256,15 @@ class SeleniumDriver():
             print_stack()
         return element
 
-    def webScroll(self, direction="up"):
+    def webScroll(self):
         """
         NEW METHOD
         """
-        if direction == "up":
-            # scroll up
-            self.driver.execute_script("window.scrollBy(0,-1000")
+        # if direction == "up":
+        #     # scroll up
+        #     self.driver.execute_script("window.scrollBy(0,-1000")
+        #
+        # if direction == "down":
+        #    # scroll down
 
-        if direction == "down":
-           # scroll down
-
-            self.driver.execute_script("window.scrollBy(0,1000")
+        self.driver.execute_script("window.scrollBy(0,1000")
