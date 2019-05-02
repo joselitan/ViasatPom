@@ -22,10 +22,11 @@ class RegisterCoursesPage(BasePage):
     _cc_cvv = "cvc" # name
     _submit_enroll = "//button[@id='confirm-purchase']/label" # xpath
     _enroll_error_message = ""
+    _payment_information = "//h1[text()='Payment Information']"
 
 
     def enterCourseName(self, name):
-        self.elementClick(self._all_courses, locatorType="xpath")
+        self.elementClick(self._all_courses, locatorType="xpath" )
         self.sendKeys(name, self._search_box, locatorType="name")
         self.log.info("Entering: " + name)
 
@@ -58,7 +59,8 @@ class RegisterCoursesPage(BasePage):
     def enrollCourse(self, num="", exp="", cvv=""):
 
         self.clickEnrollSubmitButton()
-        self.webScroll(direction="down")
+        # self.webScroll(direction="down")
+        self.scrollToAndClick(self._payment_information, locatorType="xpath")
         self.enterCreditCardInformation(num, exp, cvv)
 
 

@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 from traceback import print_stack
+from selenium.webdriver import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
@@ -7,6 +8,11 @@ import utilities.custom_logger as cl
 import logging
 import time
 import os
+
+class Actions(ActionChains):
+    def wait(self, time_s: float):
+        self._actions.append(lambda: time.sleep(time_s))
+        return self
 
 
 class SeleniumDriver():
@@ -268,3 +274,19 @@ class SeleniumDriver():
         #    # scroll down
 
         self.driver.execute_script("window.scrollBy(0,1000")
+
+    def scrollToAndClick(self, locator, locatorType="id"):
+        """
+        moves the pointer to an element and clicks on it
+        :return:
+        """
+        try:
+            element = self.getElement(locator, locatorType)
+            self.driver.execute_script("arguments[0].scrollIntoView();", element)
+            # ActionChains(self.driver).move_to_element(element).wait(2).click(element).perform()
+            element_to_click = ActionChains(self.driver)
+            element_to_click.move_to_element(element).click(element).perform()
+            self.log.info("Clicked on element with locator: " + locator + " locatorType: " + locatorType)
+        except:
+            self.log.error("Cannot click element with: " + locator + " locatorType: " + locatorType)
+            print_stack()

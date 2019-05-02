@@ -13,4 +13,4 @@ class RegisterCoursesTests(unittest.TestCase):
     def test_validEnrollment(self):
         self.courses.enterCourseName('Javascript')
         self.courses.selectCourseToEnroll('Javascript for beginners')
-        self.courses.enrollCourse("4561540417529672", "11/22", "867")
+        self.courses.enrollCourse("4561540417529672", "11/22", "867")#("4561540417529672", "11/22", "867")
