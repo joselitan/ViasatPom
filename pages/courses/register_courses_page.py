@@ -12,11 +12,10 @@ class RegisterCoursesPage(BasePage):
 
     # Locators
     _search_box = "query" #name
-    _course = "//div[@class='course-listing-title' and contains(text(),'JavaScript for beginners')]" # xpath
-    #_course = "course-listing-title" # name
+    # _course = "//div[contains(@class='course-listing-title') and contains(text(),'{0}')]" # xpath
+    _course = "//div[contains(@class,'course-listing-title') and contains(text(),'{0}')]"
     _all_courses = "//a[contains(text(),'All Courses')]" # xpath
     _enroll_button = "enroll-button-top"
-    _pay_pal = "paypal-radio" # id
     _cc_num = "cardnumber" # name
     _cc_exp = "expiration" # id
     _cc_cvv = "cvc" # name
@@ -24,32 +23,31 @@ class RegisterCoursesPage(BasePage):
     _enroll_error_message = ""
     _payment_information = "//h1[text()='Payment Information']"
 
+    def clickAllCourses(self):
+        self.elementClick(locator=self._all_courses, locatorType="xpath")
 
     def enterCourseName(self, name):
-        self.elementClick(self._all_courses, locatorType="xpath" )
-        self.sendKeys(name, self._search_box, locatorType="name")
-        self.log.info("Entering: " + name)
+
+        self.sendKeys(name, locator=self._search_box, locatorType="name")
 
     def selectCourseToEnroll(self, fullCourseName):
-        self.sendKeys(fullCourseName, self._search_box, locatorType="name")
-        self.elementClick(self._course, locatorType="xpath")
-        self.log.info("Selecting: " + fullCourseName)
+        self.elementClick(locator = self._course.format(fullCourseName), locatorType="xpath")
 
+    def clickOnEnrollButton(self):
+        self.elementClick(locator=self._enroll_button)
 
     def enterCardNum(self, num):
-        self.sendKeys(num, self._cc_num, locatorType="name")
-        self.log.info("Entering card number: {num} ".format(num=num))
+        self.sendKeys(num, locator=self._cc_num, locatorType="name")
 
     def enterCardExp(self, exp):
-        self.sendKeys(exp, self._cc_exp)
-        self.log.info("Entering exp number: {exp} ".format(exp=exp))
+        self.sendKeys(exp, locator=self._cc_exp)
 
     def enterCardCVV(self, cvv):
-        self.sendKeys(cvv, self._cc_cvv, locatorType="cvc")
-        self.log.info("Entering cvv: {cvv} ".format(cvv=cvv))
+        self.sendKeys(cvv, locator=self._cc_cvv, locatorType="cvc")
+
 
     def clickEnrollSubmitButton(self):
-        self.elementClick(self._enroll_button)
+        self.elementClick(locator=self._submit_enroll, locatorType="xpath")
 
     def enterCreditCardInformation(self, num, exp, cvv):
         self.enterCardNum(num)
@@ -57,10 +55,8 @@ class RegisterCoursesPage(BasePage):
         self.enterCardCVV(cvv)
 
     def enrollCourse(self, num="", exp="", cvv=""):
-
-        self.clickEnrollSubmitButton()
-        # self.webScroll(direction="down")
-        self.scrollToAndClick(self._payment_information, locatorType="xpath")
+        self.clickOnEnrollButton()
+        self.webScroll(direction="down")
         self.enterCreditCardInformation(num, exp, cvv)
 
 

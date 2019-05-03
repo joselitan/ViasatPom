@@ -262,18 +262,18 @@ class SeleniumDriver():
             print_stack()
         return element
 
-    def webScroll(self):
+    def webScroll(self, direction="up"):
         """
         NEW METHOD
         """
-        # if direction == "up":
-        #     # scroll up
-        #     self.driver.execute_script("window.scrollBy(0,-1000")
-        #
-        # if direction == "down":
-        #    # scroll down
+        if direction == "up":
+            # scroll up
+            self.driver.execute_script("window.scrollBy(0,-1000")
 
-        self.driver.execute_script("window.scrollBy(0,1000")
+        if direction == "down":
+           # scroll down
+            #self.driver.execute_script("window.scrollBy(0,1000")
+           self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 
     def scrollToAndClick(self, locator, locatorType="id"):
         """
