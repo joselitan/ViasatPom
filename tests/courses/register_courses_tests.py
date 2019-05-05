@@ -2,6 +2,7 @@ from pages.courses.register_courses_page import RegisterCoursesPage
 from utilities.teststatus import Status
 import unittest
 import pytest
+from locators.locators import Locators
 import time
 
 @pytest.mark.usefixtures("oneTimeSetUp","setUp")
@@ -14,8 +15,8 @@ class RegisterCoursesTests(unittest.TestCase):
     @pytest.mark.run(order=1)
     def test_validEnrollment(self):
         self.courses.clickAllCourses()
-        self.courses.enterCourseName('Javascript')
-        self.courses.selectCourseToEnroll('JavaScript for beginners')
+        self.courses.enterCourseName(Locators.course_name)
+        self.courses.selectCourseToEnroll(Locators.select_course)
         """
         https://www.google.com/search?q=python+selenium+copy+paste+text&oq=selenium+python+copy+paste&aqs=chrome.1.69i57j0.11611j0j7&sourceid=chrome&ie=UTF-8
         """
