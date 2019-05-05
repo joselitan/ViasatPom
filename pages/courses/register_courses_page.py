@@ -20,7 +20,7 @@ class RegisterCoursesPage(BasePage):
     _cc_num = "cardnumber" # name
     _cc_exp = "exp-date" # name
     _cc_cvv = "cvc" # name
-    _cc_postal = "postal"
+    _cc_postal = "postal" # name
     _submit_enroll = "//button[@id='confirm-purchase']/label" # xpath
     _enroll_error_message = ""
     _payment_information = "//h1[text()='Payment Information']"
@@ -69,7 +69,8 @@ class RegisterCoursesPage(BasePage):
 
     def enterCreditCardInformation(self, num, exp, cvv, postal):
         sleep(2)
-        self.enterCardNum(num)
+        for i in num:
+            self.enterCardNum(i)
         self.enterCardExp(exp)
         self.enterCardCVV(cvv)
         self.enterPostal(postal)
@@ -85,7 +86,7 @@ class RegisterCoursesPage(BasePage):
         self.webScroll(direction="down")
         self.click_agree()
 
-        #self.clickEnrollSubmitButton()
+        self.clickEnrollSubmitButton()
 
 
     def verifyEnrollFailed(self):
