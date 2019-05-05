@@ -59,6 +59,8 @@ class SeleniumDriver():
             return By.CLASS_NAME
         elif locatorType == "link":
             return By.LINK_TEXT
+        elif locatorType == "tag":
+            return By.TAG_NAME
         else:
             self.log.info("Locator type " + locatorType +
                           " not correct/supported")
@@ -122,7 +124,6 @@ class SeleniumDriver():
     #         print_stack()
     #
 
-
     def sendKeys(self, data, locator="", locatorType="id", element=None):
         """
         Send keys to an element -> MODIFIED
@@ -168,7 +169,6 @@ class SeleniumDriver():
     def returnKeys(self):
         # todo: create a return key function
         pass
-
 
     def isElementPresent(self, locator="", locatorType="id", element=None):
         """
@@ -243,6 +243,8 @@ class SeleniumDriver():
             print_stack()
         return element
 
+
+
     def waitForFieldElement(self, locator, locatorType="id",
                        timeout=10, pollFrequency=0.5):
         element = None
@@ -290,3 +292,17 @@ class SeleniumDriver():
         except:
             self.log.error("Cannot click element with: " + locator + " locatorType: " + locatorType)
             print_stack()
+
+    def iframeSwitchField(self, locator="", locatorType="id", element=None):
+        """
+        NEW: Move to field within an iFrame
+        """
+        try:
+            element = self.getElementList(locator, locatorType)
+            self.driver.switch_to_iframe(element)
+            self.log.info("moved to iframe")
+
+        except:
+            self.log.info("failed")
+
+

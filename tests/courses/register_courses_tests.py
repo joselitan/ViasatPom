@@ -15,6 +15,5 @@ class RegisterCoursesTests(unittest.TestCase):
     def test_validEnrollment(self):
         self.courses.clickAllCourses()
         self.courses.enterCourseName('Javascript')
-        time.sleep(2)
         self.courses.selectCourseToEnroll('JavaScript for beginners')
-        self.courses.enrollCourse(num="4035300539804083", exp="0925", cvv="111")
+        self.courses.enrollCourse(num="4035300539804083", exp="0925", cvv="111", postal="12211")
