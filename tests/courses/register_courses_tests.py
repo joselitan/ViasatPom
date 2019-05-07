@@ -17,6 +17,7 @@ class RegisterCoursesTests(unittest.TestCase):
         self.courses.clickAllCourses()
         self.courses.enterCourseName(Locators.course_name)
         self.courses.selectCourseToEnroll(Locators.select_course)
+        #testing
         """
         https://www.google.com/search?q=python+selenium+copy+paste+text&oq=selenium+python+copy+paste&aqs=chrome.1.69i57j0.11611j0j7&sourceid=chrome&ie=UTF-8
         """
