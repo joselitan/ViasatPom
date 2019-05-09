@@ -132,7 +132,7 @@ class SeleniumDriver():
         try:
             if locator:
                 element = self.getElement(locator, locatorType)
-                element.clear()
+                #element.clear()
             element.send_keys(data)
             self.log.info("Sent data on element with locator: " + locator +
                           " locatorType: " + locatorType)
