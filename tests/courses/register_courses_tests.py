@@ -21,4 +21,4 @@ class RegisterCoursesTests(unittest.TestCase):
         """
         https://www.google.com/search?q=python+selenium+copy+paste+text&oq=selenium+python+copy+paste&aqs=chrome.1.69i57j0.11611j0j7&sourceid=chrome&ie=UTF-8
         """
-        self.courses.enrollCourse(num="4035300539804083", exp="0925", cvv="111", postal="12210")
+        self.courses.enrollCourse(num=Locators.card_number, exp="0925", cvv="111", postal="12210")
