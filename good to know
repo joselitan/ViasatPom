@@ -1,0 +1,14 @@
+# how to run git through terminal/cmd manually incase bransch gets detached
+git add -A
+git status
+git commit -m 'Some message about the change'
+git push origin 'master'
+
+#simpler version
+cd /Users/mainuser/Desktop/YourFolder
+git add -A .
+git commit -m 'commit message from terminal'
+git push
+
+
+https://stackoverflow.com/questions/36890139/how-to-push-to-git-from-terminal-command-line
