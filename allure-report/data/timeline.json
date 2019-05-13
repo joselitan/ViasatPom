@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "C1MRH21DG944.local",
+    "children" : [ {
+      "name" : "58505-MainThread",
+      "children" : [ {
+        "name" : "test_validEnrollment",
+        "uid" : "15378793da9021bd",
+        "parentUid" : "6ef637f851a5a5ad9917af467708ca5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1557759404491,
+          "stop" : 1557759416522,
+          "duration" : 12031
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6ef637f851a5a5ad9917af467708ca5f"
+    } ],
+    "uid" : "19b51f6ec3242d953958182b968942db"
+  } ]
+}

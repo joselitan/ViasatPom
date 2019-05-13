@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon May 13 16:56:44 CEST 2019","Mon May 13 16:56:56 CEST 2019","12031","","register_courses_tests","RegisterCoursesTests","","","test_validEnrollment",""

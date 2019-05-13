@@ -16,5 +16,6 @@ https://stackoverflow.com/questions/36890139/how-to-push-to-git-from-terminal-co
 run allure reports
 
 - pytest -s -v register_courses_tests.py --alluredir=/Users/josemart/PycharmProjects/ViasatPom/tests/AllureReports
+
 - allure serve /Users/josemart/PycharmProjects/ViasatPom/tests/AllureReports
 

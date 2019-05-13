@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "register_courses_tests",
+    "children" : [ {
+      "name" : "test_validEnrollment",
+      "uid" : "15378793da9021bd",
+      "parentUid" : "81192b1ba0c7b4f7201ea4cf486c3fa6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557759404491,
+        "stop" : 1557759416522,
+        "duration" : 12031
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "81192b1ba0c7b4f7201ea4cf486c3fa6"
+  } ]
+}

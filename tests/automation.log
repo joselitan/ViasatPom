@@ -1,0 +1,60 @@
+05/13/2019 09:45:09 AM - LoginPage - INFO: Element found with locator: Login and  locatorType: link
+05/13/2019 09:45:09 AM - LoginPage - INFO: Clicked on element with locator: Login locatorType: link
+05/13/2019 09:45:11 AM - LoginPage - INFO: Element found with locator: user_email and  locatorType: id
+05/13/2019 09:45:11 AM - LoginPage - INFO: Sent data on element with locator: user_email locatorType: id
+05/13/2019 09:45:11 AM - LoginPage - INFO: Entering: test@email.com
+05/13/2019 09:45:12 AM - LoginPage - INFO: Element found with locator: user_password and  locatorType: id
+05/13/2019 09:45:12 AM - LoginPage - INFO: Sent data on element with locator: user_password locatorType: id
+05/13/2019 09:45:12 AM - LoginPage - INFO: Entering password
+05/13/2019 09:45:12 AM - LoginPage - INFO: Element found with locator: commit and  locatorType: name
+05/13/2019 09:45:16 AM - LoginPage - INFO: Clicked on element with locator: commit locatorType: name
+05/13/2019 09:45:16 AM - RegisterCoursesPage - INFO: Element found with locator: //a[contains(text(),'All Courses')] and  locatorType: xpath
+05/13/2019 09:45:16 AM - RegisterCoursesPage - INFO: Clicked on element with locator: //a[contains(text(),'All Courses')] locatorType: xpath
+05/13/2019 09:45:16 AM - RegisterCoursesPage - INFO: Element found with locator: query and  locatorType: name
+05/13/2019 09:45:16 AM - RegisterCoursesPage - INFO: Sent data on element with locator: query locatorType: name
+05/13/2019 09:45:17 AM - RegisterCoursesPage - INFO: Element found with locator: //div[contains(@class,'course-listing-title') and contains(text(),'JavaScript for beginners')] and  locatorType: xpath
+05/13/2019 09:45:17 AM - RegisterCoursesPage - INFO: Clicked on element with locator: //div[contains(@class,'course-listing-title') and contains(text(),'JavaScript for beginners')] locatorType: xpath
+05/13/2019 09:45:18 AM - RegisterCoursesPage - INFO: Element found with locator: enroll-button-top and  locatorType: id
+05/13/2019 09:45:23 AM - RegisterCoursesPage - INFO: Clicked on element with locator: enroll-button-top locatorType: id
+05/13/2019 09:45:25 AM - RegisterCoursesPage - INFO: Element found with locator: cardnumber and  locatorType: name
+05/13/2019 09:45:25 AM - RegisterCoursesPage - INFO: Sent data on element with locator: cardnumber locatorType: name
+05/13/2019 09:45:25 AM - RegisterCoursesPage - INFO: Element found with locator: cardnumber and  locatorType: name
+05/13/2019 09:45:25 AM - RegisterCoursesPage - INFO: Sent data on element with locator: cardnumber locatorType: name
+05/13/2019 09:45:25 AM - RegisterCoursesPage - INFO: Element found with locator: cardnumber and  locatorType: name
+05/13/2019 09:45:25 AM - RegisterCoursesPage - INFO: Sent data on element with locator: cardnumber locatorType: name
+05/13/2019 09:45:25 AM - RegisterCoursesPage - INFO: Element found with locator: cardnumber and  locatorType: name
+05/13/2019 09:45:25 AM - RegisterCoursesPage - INFO: Sent data on element with locator: cardnumber locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Element found with locator: cardnumber and  locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Sent data on element with locator: cardnumber locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Element found with locator: cardnumber and  locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Sent data on element with locator: cardnumber locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Element found with locator: cardnumber and  locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Sent data on element with locator: cardnumber locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Element found with locator: cardnumber and  locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Sent data on element with locator: cardnumber locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Element found with locator: cardnumber and  locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Sent data on element with locator: cardnumber locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Element found with locator: cardnumber and  locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Sent data on element with locator: cardnumber locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Element found with locator: cardnumber and  locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Sent data on element with locator: cardnumber locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Element found with locator: cardnumber and  locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Sent data on element with locator: cardnumber locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Element found with locator: cardnumber and  locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Sent data on element with locator: cardnumber locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Element found with locator: cardnumber and  locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Sent data on element with locator: cardnumber locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Element found with locator: cardnumber and  locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Sent data on element with locator: cardnumber locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Element found with locator: cardnumber and  locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Sent data on element with locator: cardnumber locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Element found with locator: exp-date and  locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Sent data on element with locator: exp-date locatorType: name
+05/13/2019 09:45:26 AM - RegisterCoursesPage - INFO: Element found with locator: cvc and  locatorType: name
+05/13/2019 09:45:27 AM - RegisterCoursesPage - INFO: Sent data on element with locator: cvc locatorType: name
+05/13/2019 09:45:27 AM - RegisterCoursesPage - INFO: Element found with locator: postal and  locatorType: name
+05/13/2019 09:45:27 AM - RegisterCoursesPage - INFO: Sent data on element with locator: postal locatorType: name
+05/13/2019 09:45:29 AM - RegisterCoursesPage - INFO: Element found with locator: //div[@class='boolean-checkbox spc__checkbox spc__terms-text']//input[@type='checkbox'] and  locatorType: xpath
+05/13/2019 09:45:29 AM - RegisterCoursesPage - INFO: Clicked on element with locator: //div[@class='boolean-checkbox spc__checkbox spc__terms-text']//input[@type='checkbox'] locatorType: xpath
+05/13/2019 09:45:29 AM - RegisterCoursesPage - INFO: Element found with locator: //button[@id='confirm-purchase']/label and  locatorType: xpath
+05/13/2019 09:45:29 AM - RegisterCoursesPage - INFO: Clicked on element with locator: //button[@id='confirm-purchase']/label locatorType: xpath

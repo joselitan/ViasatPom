@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd0b5fcf-34a7-4462-8285-f76fdf513390" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ViasatPom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ViasatWebPOM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locators/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AllureReports/015b8c25-b7bc-4a37-a1b2-b7e0a85478ca-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AllureReports/0da2cec7-2928-4e86-971d-f7640a5e209a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AllureReports/0f1bfc85-8e14-44ae-ab1b-8dc6f5d344c5-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AllureReports/5425ba41-6931-4a24-98d0-0872f933c387-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AllureReports/5f1e33a2-fcee-4eb3-9a6e-b7c2ee4c4ac0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AllureReports/6107e6ba-a4f0-4c75-b71f-46b339c17a6f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AllureReports/6552e10c-b337-4ce4-9f2c-90b3ba8d46ca-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AllureReports/9288dce6-446c-422e-bc73-09b9cc36e5d2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AllureReports/b660dd30-86bf-4bf1-8a41-49d8f99f353a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AllureReports/bf4a6fa0-ce61-4231-8322-8eb618c0efe2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AllureReports/cacfe0cb-6eb2-45fc-9b1b-9cf4d086bcfe-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AllureReports/d6a61c08-eea5-493f-8bd1-9291eac34456-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AllureReports/eee1d574-cb9a-4fea-9420-5dc4b217fcf3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AllureReports/f18f79b7-1993-42b1-ad86-e0e6cac0d531-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AllureReports/f3cc7a81-5e75-4bf7-9a1a-a188be7015dd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AllureReports/f9c8ec9b-100e-4971-b160-b8072c6d1fb1-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AllureReports/fa158575-3956-42b0-9390-f33d89ebb40e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AllureReports/fc0e5336-6d31-4741-8fc3-d6f84357877d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/courses/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/courses/automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good to know" beforeDir="false" afterPath="$PROJECT_DIR$/good to know" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/good to know">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+            <state relative-caret-position="255">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -89,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/locators/locators.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -116,8 +97,8 @@
       <list>
         <option value="$PROJECT_DIR$/base/selenium_driver.py" />
         <option value="$PROJECT_DIR$/tests/courses/register_courses_tests.py" />
-        <option value="$PROJECT_DIR$/good to know" />
         <option value="$PROJECT_DIR$/locators/locators.py" />
+        <option value="$PROJECT_DIR$/good to know" />
       </list>
     </option>
   </component>
@@ -127,6 +108,7 @@
     <option name="width" value="1418" />
     <option name="height" value="788" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -136,13 +118,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="ViasatPom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ViasatPom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ViasatPom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ViasatPom" type="462c0819:PsiDirectoryNode" />
-              <item name="allure-report" type="462c0819:PsiDirectoryNode" />
+              <item name="ViasatWebPOM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ViasatWebPom" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -154,7 +131,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -200,13 +177,28 @@
       <option name="project" value="LOCAL" />
       <updated>1557486001320</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added allure reports to this viasatpom project and it working with jenkins as well">
+      <created>1557743398873</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557743398873</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added allure reports to this viasatpom project and it working with jenkins as well">
+      <created>1557767808303</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557767808303</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="814" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="806" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -217,7 +209,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.36426592" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.36834735" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32872927" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -228,12 +220,22 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="changed selenium_driver.py =&gt; removed element.clear() from sendKeys() helper" />
     <MESSAGE value="added new allure module to the interpreter. Should run report the test scripts once executed" />
     <MESSAGE value="dfadfasdf" />
-    <option name="LAST_COMMIT_MESSAGE" value="dfadfasdf" />
+    <MESSAGE value="added allure reports to this viasatpom project and it working with jenkins as well" />
+    <option name="LAST_COMMIT_MESSAGE" value="added allure reports to this viasatpom project and it working with jenkins as well" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/allure-report/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/courses/register_courses_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -241,13 +243,6 @@
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/good to know">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -278,13 +273,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/allure-report/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/locators/locators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/good to know">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
         </state>
       </provider>
     </entry>

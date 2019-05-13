@@ -1,0 +1,50 @@
+{
+  "670482a0f7c76f0dfb900308f34f5a1e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "2505640885aec3fa",
+      "reportUrl" : "http://localhost:8080/job/SeleniumPytest/12/allure/#testresult/2505640885aec3fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557737504368,
+        "stop" : 1557737516422,
+        "duration" : 12054
+      }
+    }, {
+      "uid" : "cddce39e6fb87f89",
+      "reportUrl" : "http://localhost:8080/job/SeleniumPytest/11/allure/#testresult/cddce39e6fb87f89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557737445645,
+        "stop" : 1557737458986,
+        "duration" : 13341
+      }
+    }, {
+      "uid" : "427d9bc0cdb37fe8",
+      "reportUrl" : "http://localhost:8080/job/SeleniumPytest/10/allure/#testresult/427d9bc0cdb37fe8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557737321870,
+        "stop" : 1557737334904,
+        "duration" : 13034
+      }
+    }, {
+      "uid" : "63a66de73667a7c3",
+      "reportUrl" : "http://localhost:8080/job/SeleniumPytest/9/allure/#testresult/63a66de73667a7c3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1557737223669,
+        "stop" : 1557737223669,
+        "duration" : 0
+      }
+    } ]
+  }
+}

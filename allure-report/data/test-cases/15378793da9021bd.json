@@ -1,0 +1,432 @@
+{
+  "uid" : "15378793da9021bd",
+  "name" : "test_validEnrollment",
+  "fullName" : "register_courses_tests.RegisterCoursesTests#test_validEnrollment",
+  "historyId" : "670482a0f7c76f0dfb900308f34f5a1e",
+  "time" : {
+    "start" : 1557759404491,
+    "stop" : 1557759416522,
+    "duration" : 12031
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1557759404478,
+      "stop" : 1557759404478,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "session_tmpdir",
+    "time" : {
+      "start" : 1557759388095,
+      "stop" : 1557759388131,
+      "duration" : 36
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "splinter_screenshot_encoding",
+    "time" : {
+      "start" : 1557759388132,
+      "stop" : 1557759388133,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1557759388133,
+      "stop" : 1557759388133,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1557759388133,
+      "stop" : 1557759388133,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "splinter_screenshot_getter_png",
+    "time" : {
+      "start" : 1557759388133,
+      "stop" : 1557759388133,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "tmpdir_factory",
+    "time" : {
+      "start" : 1557759388095,
+      "stop" : 1557759388095,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "classSetup",
+    "time" : {
+      "start" : 1557759404477,
+      "stop" : 1557759404477,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "splinter_screenshot_getter_html",
+    "time" : {
+      "start" : 1557759388133,
+      "stop" : 1557759388133,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_browser_screenshot_session",
+    "time" : {
+      "start" : 1557759404477,
+      "stop" : 1557759404477,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "splinter_screenshot_dir",
+    "time" : {
+      "start" : 1557759388132,
+      "stop" : 1557759388132,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "splinter_make_screenshot_on_failure",
+    "time" : {
+      "start" : 1557759388132,
+      "stop" : 1557759388132,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "oneTimeSetUp",
+    "time" : {
+      "start" : 1557759388134,
+      "stop" : 1557759404476,
+      "duration" : 16342
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "splinter_session_scoped_browser",
+    "time" : {
+      "start" : 1557759388131,
+      "stop" : 1557759388131,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "84b25ae1b5ac782a",
+      "name" : "log",
+      "source" : "84b25ae1b5ac782a.txt",
+      "type" : "text/plain",
+      "size" : 6472
+    }, {
+      "uid" : "ca896c9e37c8a3a5",
+      "name" : "stdout",
+      "source" : "ca896c9e37c8a3a5.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "2ad1786ce9f390a8",
+      "name" : "stderr",
+      "source" : "2ad1786ce9f390a8.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setUp::0",
+    "time" : {
+      "start" : 1557759416526,
+      "stop" : 1557759416526,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1557759416853,
+      "stop" : 1557759416853,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_browser_screenshot_session::0",
+    "time" : {
+      "start" : 1557759416538,
+      "stop" : 1557759416538,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "oneTimeSetUp::0",
+    "time" : {
+      "start" : 1557759416542,
+      "stop" : 1557759416851,
+      "duration" : 309
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "register_courses_tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "RegisterCoursesTests"
+  }, {
+    "name" : "host",
+    "value" : "C1MRH21DG944.local"
+  }, {
+    "name" : "thread",
+    "value" : "58505-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "register_courses_tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6eedc6ab1f193e07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557737504368,
+        "stop" : 1557737516422,
+        "duration" : 12054
+      }
+    }, {
+      "uid" : "abd64d25023bd30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557737445645,
+        "stop" : 1557737458986,
+        "duration" : 13341
+      }
+    }, {
+      "uid" : "50b7ef24891a3b74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557737321870,
+        "stop" : 1557737334904,
+        "duration" : 13034
+      }
+    }, {
+      "uid" : "2d263ea7df214470",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1557737223669,
+        "stop" : 1557737223669,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "2505640885aec3fa",
+        "reportUrl" : "http://localhost:8080/job/SeleniumPytest/12/allure/#testresult/2505640885aec3fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1557737504368,
+          "stop" : 1557737516422,
+          "duration" : 12054
+        }
+      }, {
+        "uid" : "cddce39e6fb87f89",
+        "reportUrl" : "http://localhost:8080/job/SeleniumPytest/11/allure/#testresult/cddce39e6fb87f89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1557737445645,
+          "stop" : 1557737458986,
+          "duration" : 13341
+        }
+      }, {
+        "uid" : "427d9bc0cdb37fe8",
+        "reportUrl" : "http://localhost:8080/job/SeleniumPytest/10/allure/#testresult/427d9bc0cdb37fe8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1557737321870,
+          "stop" : 1557737334904,
+          "duration" : 13034
+        }
+      }, {
+        "uid" : "63a66de73667a7c3",
+        "reportUrl" : "http://localhost:8080/job/SeleniumPytest/9/allure/#testresult/63a66de73667a7c3",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+        "time" : {
+          "start" : 1557737223669,
+          "stop" : 1557737223669,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "15378793da9021bd.json",
+  "parameterValues" : [ ]
+}

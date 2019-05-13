@@ -1,0 +1,23 @@
+[ {
+  "buildOrder" : 12,
+  "reportUrl" : "http://localhost:8080/job/SeleniumPytest/12/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 11,
+  "reportUrl" : "http://localhost:8080/job/SeleniumPytest/11/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 10,
+  "reportUrl" : "http://localhost:8080/job/SeleniumPytest/10/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "http://localhost:8080/job/SeleniumPytest/9/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 1
+  }
+} ]

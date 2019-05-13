@@ -1,0 +1,49 @@
+[ {
+  "buildOrder" : 12,
+  "reportUrl" : "http://localhost:8080/job/SeleniumPytest/12/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 1,
+    "unknown" : 0,
+    "total" : 1
+  }
+}, {
+  "buildOrder" : 11,
+  "reportUrl" : "http://localhost:8080/job/SeleniumPytest/11/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 1,
+    "unknown" : 0,
+    "total" : 1
+  }
+}, {
+  "buildOrder" : 10,
+  "reportUrl" : "http://localhost:8080/job/SeleniumPytest/10/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 1,
+    "unknown" : 0,
+    "total" : 1
+  }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "http://localhost:8080/job/SeleniumPytest/9/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 1,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 1
+  }
+} ]

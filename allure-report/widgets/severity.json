@@ -1,0 +1,11 @@
+[ {
+  "uid" : "15378793da9021bd",
+  "name" : "test_validEnrollment",
+  "time" : {
+    "start" : 1557759404491,
+    "stop" : 1557759416522,
+    "duration" : 12031
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
