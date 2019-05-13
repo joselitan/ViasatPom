@@ -1,1 +1,3 @@
-{}
+{
+  "tests/testFoo/test_foo.py": true
+}

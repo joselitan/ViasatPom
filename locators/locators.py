@@ -8,7 +8,7 @@ class Locators():
     card_cvv = "111"
     postal = "12210"
     postall = "kjlsjdfl"
-    fafdasd = "dklfjasödjf"
+    fafdasd = "dkf"
 
 
     # home page locators
